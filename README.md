@@ -108,9 +108,9 @@ For visualisations, we have two kinds of scripts.
     
     
     
-##### Gradient_Visualisation_Notebook [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb)
+##### Gradient_Visualisation_Notebook [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/vaibhav016/FILRCN/blob/main/contextnet/contextnet_visualisation/gradient_visualisation/gradient_visualisation.ipynb)
 
-##### Loss Lists Notebook [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb)
+##### Loss Lists Notebook [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/vaibhav016/FILRCN/blob/main/contextnet/contextnet_visualisation/loss_landscape_visualisation/generate_loss_landscape.ipynb)
 
 ##### For loss landscape, go to [drive](https://drive.google.com/file/d/1rYCHvoJGesCQZhpyuLAjNDNfQkbyE7nR/view?usp=sharing)
 ##### For gradient attribution, go to [drive](https://drive.google.com/file/d/1Smw05OEhrptbitom-lOUh7E9LjjAb-cu/view?usp=sharing)
