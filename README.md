@@ -36,7 +36,7 @@
 - [Training & Testing Tutorial](#training--testing-tutorial)
 - [Loss landscape visualisation and gradient attribution](#loss-landscape-visualisation-and-gradient-attribution)
   - [Gradient_Visualisation_Notebook](#gradient-visualisation-notebook)
-  - [Loss Lists Notebook](#loss lists notebook)
+  - [Loss Lists Notebook](#loss-lists-notebook)
 - [English](#english)
 - [References & Credits](#references--credits)
 - [Contact](#contact)
