@@ -1,5 +1,7 @@
 <h1 align="center">
-<p>Feature integration in acoustic models using Deep Convolutional Nets :microphone:</p>
+<p>Feature integration in acoustic models using Low Rank Spectro-Temporal Decomposition in Convolutional Nets :microphone:</p>
+    <img src="https://github.com/vaibhav016/FILRCN/blob/main/LRCNN.png" width="500" height="300" />
+
 <p align="center">
 <a href="https://github.com/vaibhav016/TensorFlowASR/blob/main/LICENSE">
   <img alt="GitHub" src="https://img.shields.io/github/license/TensorSpeech/TensorFlowASR?logo=apache&logoColor=green">
