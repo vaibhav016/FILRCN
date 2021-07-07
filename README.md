@@ -116,12 +116,12 @@ For visualisations, we have two kinds of scripts.
 
 <h4 align="centre"> 
     <p align="centre" > gradients attribution</p>
-    <img src="/Users/vaibhavsingh/Desktop/FILRCN/gradient_gf.gif" width="500" height="300" />
+    <img src="https://github.com/vaibhav016/FILRCN/blob/main/gradient_gf.gif" width="500" height="300" />
 </h4>
 
 <h4 align="centre"> 
     <p align="centre">  loss landscape </p> 
-    <img src="/Users/vaibhavsingh/Desktop/FILRCN/loss.gif" width="500" height="300" />
+    <img src="https://github.com/vaibhav016/FILRCN/blob/main/loss.gif" width="500" height="300" />
 </h4>
 
 
