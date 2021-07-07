@@ -16,7 +16,7 @@
 
 - (05/1/2021) Trained vanilla Contextnet over Librispeech Dataset [http://arxiv.org/abs/2005.03191](http://arxiv.org/abs/2005.03191)
 - (05/6/2021) Implemented the Low rank decomposition on ContextNet on both spectrogram and raw audio input.
-- (05/16/2021) Generated Loss Landscapes for the trained models, see [demo_loss](./examples/contextnet/contextnet_visualisation/)
+- (05/16/2021) Generated Loss Landscapes for the trained models, see [demo_loss](./contextnet/contextnet_visualisation/)
 - (05/20/2020) Trained a Low Rank Decomposition based Deep Net with wave input [Low rank decomposition model](http://publications.idiap.ch/downloads/reports/2019/Abrol_Idiap-RR-11-2019.pdf)
 - (06/7/2020)  Generated Integrated Gradients for trained models [Keras Integrated Gradients documentation](https://www.tensorflow.org/tutorials/interpretability/integrated_gradients)
 
