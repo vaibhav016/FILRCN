@@ -15,4 +15,3 @@ my_train
 *.DS_Store
 *.ipynb_checkpoints
 *.pytest_cache
-*.ipynb
