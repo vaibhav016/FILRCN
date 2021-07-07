@@ -37,7 +37,7 @@
 - [Loss landscape visualisation and gradient attribution](#loss-landscape-visualisation-and-gradient-attribution)
   - [Gradient_Visualisation_Notebook](#gradient-visualisation-notebook)
   - [Loss Lists Notebook](#loss-lists-notebook)
-- [English](#english)
+- [English Dataset](#english)
 - [References & Credits](#references--credits)
 - [Contact](#contact)
 
@@ -108,15 +108,24 @@ For visualisations, we have two kinds of scripts.
     
     
     
-##### Gradient_Visualisation_Notebook [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/vaibhav016/FILRCN/blob/main/contextnet/contextnet_visualisation/gradient_visualisation/gradient_visualisation.ipynb)
+### Gradient_Visualisation_Notebook [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/vaibhav016/FILRCN/blob/main/contextnet/contextnet_visualisation/gradient_visualisation/gradient_visualisation.ipynb)
+### Loss Lists Notebook [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/vaibhav016/FILRCN/blob/main/contextnet/contextnet_visualisation/loss_landscape_visualisation/generate_loss_landscape.ipynb)
 
-##### Loss Lists Notebook [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/vaibhav016/FILRCN/blob/main/contextnet/contextnet_visualisation/loss_landscape_visualisation/generate_loss_landscape.ipynb)
+### For loss landscape, go to [drive](https://drive.google.com/file/d/1rYCHvoJGesCQZhpyuLAjNDNfQkbyE7nR/view?usp=sharing)
+### For gradient attribution, go to [drive](https://drive.google.com/file/d/1Smw05OEhrptbitom-lOUh7E9LjjAb-cu/view?usp=sharing)
 
-##### For loss landscape, go to [drive](https://drive.google.com/file/d/1rYCHvoJGesCQZhpyuLAjNDNfQkbyE7nR/view?usp=sharing)
-##### For gradient attribution, go to [drive](https://drive.google.com/file/d/1Smw05OEhrptbitom-lOUh7E9LjjAb-cu/view?usp=sharing)
+<h4 align="centre"> 
+    <p align="centre" > gradients attribution</p>
+    <img src="/Users/vaibhavsingh/Desktop/FILRCN/gradient_gf.gif" width="500" height="300" />
+</h4>
+
+<h4 align="centre"> 
+    <p align="centre">  loss landscape </p> 
+    <img src="/Users/vaibhavsingh/Desktop/FILRCN/loss.gif" width="500" height="300" />
+</h4>
 
 
-### English
+### English Dataset
 
 |   **Name**   |                             **Source**                             | **Hours** |
 | :----------: | :----------------------------------------------------------------: | :-------: |
