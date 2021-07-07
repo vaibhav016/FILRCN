@@ -16,7 +16,7 @@
 
 - (05/1/2021) Trained vanilla Contextnet over Librispeech Dataset [http://arxiv.org/abs/2005.03191](http://arxiv.org/abs/2005.03191)
 - (05/6/2021) Implemented the Low rank decomposition on ContextNet on both spectrogram and raw audio input.
-- (05/16/2021) Generated Loss Landscapes for the trained models, see [demo_loss](./contextnet/contextnet_visualisation/)
+- (05/16/2021) Generated Loss Landscapes for the trained models, see [demo_loss](./contextnet/contextnet_visualisation/loss_landscape_visualisation)
 - (05/20/2020) Trained a Low Rank Decomposition based Deep Net with wave input [Low rank decomposition model](http://publications.idiap.ch/downloads/reports/2019/Abrol_Idiap-RR-11-2019.pdf)
 - (06/7/2020)  Generated Integrated Gradients for trained models [Keras Integrated Gradients documentation](https://www.tensorflow.org/tutorials/interpretability/integrated_gradients)
 
@@ -47,7 +47,7 @@
 ### Publications
 
 - **ContextNet** (Reference: [http://arxiv.org/abs/2005.03191](http://arxiv.org/abs/2005.03191))
-  See [examples/contextnet](./examples/contextnet)
+  See [examples/contextnet](./contextnet)
 - **Raw Wwaveform Based CNN Through LOW-RANK Spectro-Temporal Decoupling ** (Reference: [http://publications.idiap.ch/downloads/reports/2019/Abrol_Idiap-RR-11-2019.pdf](http://publications.idiap.ch/downloads/reports/2019/Abrol_Idiap-RR-11-2019.pdf))
   See [tensorflow_asr/models/encoders](./tensorflow_asr/models/encoders)
   
@@ -91,14 +91,14 @@ See [augmentations](./tensorflow_asr/augmentations/README.md)
 
 ## Training & Testing Tutorial
 
-1. Define config YAML file, see the `config.yml` files in the [example folder](./examples/contextnet) for reference (you can copy and modify values such as parameters, paths, etc.. to match your local machine configuration)
+1. Define config YAML file, see the `config.yml` files in the [example folder](./contextnet) for reference (you can copy and modify values such as parameters, paths, etc.. to match your local machine configuration)
 2. Download your corpus (a.k.a datasets) and run `download_links.sh`[scripts folder](./scripts) to download files  For more detail, see [datasets](./tensorflow_asr/datasets/README.md). **Note:** Make sure your data contain only characters in your language, for example, english has `a` to `z` and `'`. **Do not use `cache` if your dataset size is not fit in the RAM**.
 3. [Optional] Generate TFRecords to use `tf.data.TFRecordDataset` for better performance by using the script [create_tfrecords.py](./scripts/create_tfrecords.py)
 4. Create vocabulary file (characters or subwords/wordpieces) by defining `language.characters`, using the scripts [generate_vocab_subwords.py](./scripts/generate_vocab_subwords.py) or [generate_vocab_sentencepiece.py](./scripts/generate_vocab_sentencepiece.py). There're predefined ones in [vocabularies](./vocabularies)
 5. [Optional] Generate metadata file for your dataset by using script [generate_metadata.py](./scripts/generate_metadata.py). This metadata file contains maximum lengths calculated with your `config.yml` and total number of elements in each dataset, for static shape training and precalculated steps per epoch.
 6. run `create_transcripts_from_data.sh` from [scrpts folder](./scripts) to generate .tsv files(the format in which the input is given is .tsv)
-6. For training, see `train.py` files in the [example folder](./examples) to see the options
-7. For testing, see `test.py` files in the [example folder](./examples) to see the options. 
+6. For training, see `train.py` files in the [example folder](./contextnet) to see the options
+7. For testing, see `test.py` files in the [example folder](./contextnet) to see the options. 
 
 
 ## Loss landscape visualisation and gradient attribution
