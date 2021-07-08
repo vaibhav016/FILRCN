@@ -68,7 +68,7 @@ def plot_gradients_images(directory_to_save_plots):
         random_node_list = x_temp["index_of_random_node"]
 
         fig, ax = plt.subplots(nrows=2, ncols=3, figsize=(25, 14), facecolor=(1, 1, 1))
-        fig.suptitle(' Model checkpoint ' + str(index), fontsize=16)
+        fig.suptitle(' Epoch ' + str(index), fontsize=16)
         for i, j in enumerate(zip(images_check, gradients_check)):
             # this is to obtain other samples from visualisation data(it has 6 files- even=>male, and odd=>female
             # if i<4:
