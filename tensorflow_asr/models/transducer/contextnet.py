@@ -41,7 +41,7 @@ class ContextNet(Transducer):
                  prediction_trainable: bool = True,
                  joint_dim: int = 1024,
                  joint_activation: str = "tanh",
-                 kernel_initializer=None,
+                 kernel_initializer: str = "glorot_uniform",
                  lrcn: bool = False,
                  wave_model: bool = False,
                  wave_kernel_size: int = 400,

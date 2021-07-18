@@ -4,7 +4,8 @@ scipy
 sklearn
 pandas
 tensorflow-datasets>=4.2.0
-# tensorflow-io
+# tensorflow==2.5.0
+# tensorflow-io==1.8.0
 # tensorflow-text
 tensorflow-addons>=0.11.1
 setuptools>=47.1.1

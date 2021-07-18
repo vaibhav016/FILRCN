@@ -222,7 +222,7 @@ learning_config:
       - /Users/vaibhavsingh/Desktop/FILRCN/scripts/Datasets/train-other-500/LibriSpeech/transcripts.tsv
     tfrecords_dir: null
     shuffle: True
-    cache: True
+    cache: False
     buffer_size: 100
     drop_remainder: True
     stage: train
@@ -234,7 +234,7 @@ learning_config:
       - /Users/vaibhavsingh/Desktop/FILRCN/scripts/Datasets/dev-other/LibriSpeech/transcripts.tsv
     tfrecords_dir: null
     shuffle: False
-    cache: True
+    cache: False
     buffer_size: 100
     drop_remainder: True
     stage: eval
@@ -246,7 +246,7 @@ learning_config:
        - /Users/vaibhavsingh/Desktop/FILRCN/scripts/Datasets/test-other/LibriSpeech/transcripts.tsv
     tfrecords_dir: null
     shuffle: False
-    cache: True
+    cache: False
     buffer_size: 100
     drop_remainder: True
     stage: test
