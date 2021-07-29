@@ -12,13 +12,7 @@
 </p>
 </h1>
 
-<h2 align="center"> Visit this site for interactive plots https://vaibhav016.github.io/FILRCN/ :smile:
- <div>
-    <a href="https://plotly.com/~experiment.asr/1/?share_key=HyerqxaOf1ob2CWRB8Ab0t" target="_blank" title="testing" style="display: block; text-align: center;"><img src="https://plotly.com/~experiment.asr/1.png?share_key=HyerqxaOf1ob2CWRB8Ab0t" alt="testing" style="max-width: 100%;width: 500px;"  width="500" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
-    <script data-plotly="experiment.asr:1" sharekey-plotly="HyerqxaOf1ob2CWRB8Ab0t" src="https://plotly.com/embed.js" async></script>
-</div>
-  
-    
+<h2 align="center"> Visit this site for interactive plots https://vaibhav016.github.io/FILRCN/ :smile:    
 </h2>
 
 ## What's New?
